@@ -7,7 +7,7 @@ def format_string(name, age):
     Returns:
         str: Formatted string
     """
-    formatted_string = f"my name is {name} and i am {age} years old."
+    formatted_string = f"My name is {name} and i am {age} years old"
     return formatted_string
 
 def conditional_check(number):
@@ -19,11 +19,11 @@ def conditional_check(number):
         str: "Greater", "Lesser", or "Equal"
     """
     if number > 10:
-        return f"the number {number} is greater than 10"
+        return f"Greater"
     elif number < 10:
-        return f"The number {number} is less than 10"
+        return f"Lesser"
     else:
-        return f"The number {number} is equal to 10"
+        return f"Equal"
 
 def loop_sum(n):
     """
@@ -36,7 +36,7 @@ def loop_sum(n):
     sum=0
     for i in range(n+1):
         sum = sum + i
-    return f"The sum of numbers from 1 to {n} is: {sum}"
+    return f"sum"
 
 def list_operations(numbers):
     """
@@ -75,7 +75,7 @@ def set_operations(list1, list2):
         set: Common elements
     """
     common_elements = list1.intersection(list2)
-    return common_elements
+    return set(common_elements)
 
 def arithmetic_ops(a, b):
     """
