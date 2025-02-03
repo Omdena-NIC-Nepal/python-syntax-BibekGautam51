@@ -7,7 +7,7 @@ def format_string(name, age):
     Returns:
         str: Formatted string
     """
-    formatted_string = f"My name is {name} and i am {age} years old"
+    formatted_string = f"My name is {name} and I am {age} years old"
     return formatted_string
 
 def conditional_check(number):
@@ -36,7 +36,7 @@ def loop_sum(n):
     sum=0
     for i in range(n+1):
         sum = sum + i
-    return f"sum"
+    return f"{sum}"
 
 def list_operations(numbers):
     """
@@ -74,7 +74,7 @@ def set_operations(list1, list2):
     Returns:
         set: Common elements
     """
-    common_elements = list1.intersection(list2)
+    common_elements = list1 & list2
     return set(common_elements)
 
 def arithmetic_ops(a, b):
