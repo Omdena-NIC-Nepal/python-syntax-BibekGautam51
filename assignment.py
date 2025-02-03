@@ -34,9 +34,9 @@ def loop_sum(n):
         int: Sum of numbers
     """
     sum=0
-    for i in range(n+1):
+    for i in range(1,n+1):
         sum = sum + i
-    return f"{sum}"
+    return sum
 
 def list_operations(numbers):
     """
@@ -74,8 +74,8 @@ def set_operations(list1, list2):
     Returns:
         set: Common elements
     """
-    common_elements = list1 & list2
-    return set(common_elements)
+    common_elements = set(list1) & set(list2)
+    return common_elements
 
 def arithmetic_ops(a, b):
     """
